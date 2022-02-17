@@ -16,13 +16,13 @@ jobs:
       # with:
       #   submodules: false
 
-    - name: Install go
-      uses: actions/setup-go@v2
-      with:
-        go-version: '^1.17.6'
+    # - name: Install go
+    #   uses: actions/setup-go@v2
+    #   with:
+    #     go-version: '^1.17.6'
 
     - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@v1
+      uses: benmatselby/hugo-deploy-gh-pages@v1.13.0
       env:
         HUGO_VERSION: 0.92.1
         HUGO_EXTENDED: true

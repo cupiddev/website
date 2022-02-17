@@ -22,4 +22,5 @@ jobs:
         HUGO_VERSION: 0.92.1
         TARGET_REPO: cupiddev/cupiddev.github.io
         TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # CNAME: www.jameswright.xyz

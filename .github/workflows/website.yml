@@ -18,11 +18,16 @@ jobs:
 
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@v1
+      with:
+        go_version: 1.17
+        hugo_extended: true
+        hugo_version: 0.92.1
       env:
-        HUGO_VERSION: 0.92.1
-        HUGO_EXTENDED: true
-        GO_VERSION: 1.17
+        # HUGO_VERSION: 0.92.1
+        # HUGO_EXTENDED: true
+        # GO_VERSION: 1.17
         TARGET_REPO: cupiddev/cupiddev.github.io
+        TARGET_BRANCH: main
         TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # CNAME: www.jameswright.xyz

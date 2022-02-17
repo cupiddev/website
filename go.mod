@@ -1,4 +1,4 @@
-module github.com/cupiddev/cupiddev-website
+module github.com/cupiddev/website
 
 go 1.17
 

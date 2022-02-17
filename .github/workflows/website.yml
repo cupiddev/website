@@ -1,0 +1,25 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout master
+      uses: actions/checkout@v1
+      # with:
+      #   submodules: false
+
+    - name: Hugo Deploy GitHub Pages
+      uses: benmatselby/hugo-deploy-gh-pages@v1
+      env:
+        HUGO_VERSION: 0.92.1
+        TARGET_REPO: cupiddev/cupiddev.github.io
+        TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
+        # CNAME: www.jameswright.xyz

@@ -6,7 +6,7 @@ title = 'CUPID—for joyful code'
 theme = 'github.com/alex-shpak/hugo-book'
 
 # Book configuration
-disablePathToLower = true
+# disablePathToLower = false
 enableGitInfo = true
 
 # Needed for mermaid/katex shortcodes
@@ -49,8 +49,12 @@ enableGitInfo = true
 #   url = "https://themes.gohugo.io/hugo-book/"
 #   weight = 20
 
+[permalinks]
+docs = "/:slug/"
+
 [params]
   BookTheme = 'auto'
+#   BookTheme = 'light'
   BookToC = true
   # BookLogo = 'logo.png'
   BookSection = 'docs'
@@ -62,7 +66,7 @@ enableGitInfo = true
 
   BookSearch = true
   BookComments = true
-  BookPortableLinks = true
+#   BookPortableLinks = true
   BookServiceWorker = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time

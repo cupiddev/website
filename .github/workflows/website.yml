@@ -20,6 +20,8 @@ jobs:
       uses: benmatselby/hugo-deploy-gh-pages@v1
       env:
         HUGO_VERSION: 0.92.1
+        HUGO_EXTENDED: true
+        # GO_VERSION: 1.17
         TARGET_REPO: cupiddev/cupiddev.github.io
         TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

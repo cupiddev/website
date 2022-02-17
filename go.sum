@@ -1,0 +1,9 @@
+github.com/alex-shpak/hugo-book v0.0.0-20220214144411-5581ec084555 h1:u5AS5tW9l5CJi+3l3pBK8o8B8GOTL14pzpf6BIzYnIg=
+github.com/alex-shpak/hugo-book v0.0.0-20220214144411-5581ec084555/go.mod h1:L4NMyzbn15fpLIpmmtDg9ZFFyTZzw87/lk7M2bMQ7ds=
+github.com/gohugoio/hugo-mod-bootstrap-scss-v4 v1.6.1 h1:r+fas/SvSP5JwS/p5iyESN4vqVPVJiJgMo/8EL/SMpk=
+github.com/gohugoio/hugo-mod-bootstrap-scss-v4 v1.6.1/go.mod h1:VHQ9xbucU9fEzMSHMnpYlPmqWgcG2+AgFLt0wE//eg4=
+github.com/thingsym/hugo-theme-techdoc v0.9.8 h1:rZj2eYaI/lvyPmXJbn3QS6eaULbH5o4NU5UI0VHN54w=
+github.com/thingsym/hugo-theme-techdoc v0.9.8/go.mod h1:HgH3EWQ4j2sDjNP8UBio6zyZim8RnfJCY1gTWxVGcxA=
+github.com/twbs/bootstrap v4.6.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20220103005035-399397966bef h1:hsFJdCKVDFfmNv47dR1Uoow9+WFsVqjpN6PQANJGs7I=
+github.com/zerostaticthemes/hugo-whisper-theme v0.0.0-20220103005035-399397966bef/go.mod h1:3pXj02L0BmVtBJxF3HK1rWyES1AYTzfH5q6+YTaYaQI=

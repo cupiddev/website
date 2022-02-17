@@ -19,13 +19,14 @@ jobs:
     - name: Install go
       uses: actions/setup-go@v2
       with:
-        go-version: '^1.17'
+        go-version: '^1.17.6'
 
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@v1
       env:
         HUGO_VERSION: 0.92.1
         HUGO_EXTENDED: true
+        GO_VERSION: 1.17.6
         TARGET_REPO: cupiddev/cupiddev.github.io
         TARGET_BRANCH: main
         TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}

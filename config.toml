@@ -66,7 +66,7 @@ docs = "/:slug/"
 
   BookSearch = true
   BookComments = true
-#   BookPortableLinks = true
+  BookPortableLinks = true
   BookServiceWorker = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time

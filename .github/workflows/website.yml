@@ -31,4 +31,4 @@ jobs:
         TARGET_BRANCH: main
         TOKEN: ${{secrets.TOKEN}}
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        # CNAME: www.jameswright.xyz
+        CNAME: cupid.dev

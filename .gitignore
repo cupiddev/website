@@ -1,5 +1,4 @@
 .hugo_build.lock
 /_vendor/
 /public/
-/resources/
 /.vscode/

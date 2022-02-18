@@ -12,9 +12,9 @@ jobs:
 
     steps:
     - name: Checkout master
-      uses: actions/checkout@v1
-      # with:
-      #   submodules: false
+      uses: actions/checkout@v2
+      with:
+        submodules: false
 
     # - name: Install go
     #   uses: actions/setup-go@v2
@@ -29,6 +29,4 @@ jobs:
         GO_VERSION: 1.17.6
         TARGET_REPO: cupiddev/cupiddev.github.io
         TARGET_BRANCH: main
-        TOKEN: ${{ secrets.WEBSITE_DEPLOY_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # CNAME: www.jameswright.xyz

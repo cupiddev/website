@@ -29,5 +29,5 @@ jobs:
         GO_VERSION: 1.17.6
         TARGET_REPO: cupiddev/cupiddev.github.io
         TARGET_BRANCH: main
-        GITHUB_TOKEN: {{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         # CNAME: www.jameswright.xyz

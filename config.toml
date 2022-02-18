@@ -7,7 +7,7 @@ theme = 'github.com/alex-shpak/hugo-book'
 
 # Book configuration
 # disablePathToLower = false
-enableGitInfo = true
+enableGitInfo = false
 
 # Needed for mermaid/katex shortcodes
 [markup]

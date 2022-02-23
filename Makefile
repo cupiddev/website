@@ -7,7 +7,7 @@ hugo := hugo
 #publish_site_dir := $(publish_repo_dir)/docs
 
 serve:
-	$(hugo) serve --disableFastRender --verbose --forceSyncStatic --buildDrafts --buildFuture
+	$(hugo) serve --disableFastRender --noHTTPCache --verbose --forceSyncStatic --buildDrafts --buildFuture
 
 serveProd:
 	$(hugo) serve --disableFastRender --verbose --forceSyncStatic

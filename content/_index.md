@@ -9,23 +9,17 @@ I believe that there are properties or characteristics of software that make it 
 
 There are likely many of these properties, overlapping and interrelating, and there are many ways to describe them. I have chosen five that underpin much of what I care about in code. There is a diminishing return; five are enough to make a handy acronym, and few enough to remember.
 
-I will expand on each property in future articles so that this one does not get any longer, so please forgive me for not being more comprehensive.
-
 The five CUPID properties are:
 
-**[Composable](/composable):** plays well with others
-
-**[Unix philosophy](/unix-philosophy):** does one thing well
-
-**[Predictable](/predictable):** does what you expect
-
-**[Idiomatic](/idiomatic):** feels natural
-
-**[Domain-based](/domain-based):** the solution domain models the problem domain in language and structure
+- **[Composable](/composable/):** plays well with others
+- **[Unix philosophy](/unix-philosophy/):** does one thing well
+- **[Predictable](/predictable/):** does what you expect
+- **[Idiomatic](/idiomatic/):** feels natural
+- **[Domain-based](/domain-based/):** the code models the problem domain in language and structure
 
 {{% aside %}}
 
-## Preamble: a long time ago
+## Preamble: a long time ago&hellip;
 
 Have you ever cracked open an unfamiliar codebase and just *known* how to get around? The structure, the naming, the flow is obvious, familiar somehow. A smile appears on your face. "I've got this!" you think.
 
@@ -66,3 +60,5 @@ This feels more like something to strive for. How nice would it be to feel *comf
 If you spend your working days programming, then navigating and manipulating a codebase defines your user experience. You can experience surprise, frustration, dread, anticipation, helplessness, hope, joy, all because of the choices that earlier programmers made in the codebase.
 
 If we assume it is possible for a codebase to be joyful, is each codebase its own special snowflake whose impact on your psyche is unique? Or can we articulate what makes it joyful, and offer a path towards increasing the joy in the code that we touch?
+
+[^gabriel]: I recommend anyone involved in software development, not just programmers, read this short essay. It is a profound and beautiful piece of writing.

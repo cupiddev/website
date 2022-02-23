@@ -2,7 +2,6 @@
 title: "Idiomatic"
 date: 2022-02-23T16:23:55Z
 weight: 400
-draft: true
 ---
 
 Everyone has their own coding style. Whether it be spaces vs. tabs, size of indentation, variable naming conventions, placement of curly braces or parentheses, layout of code in a source file, or myriad other possibilities. Onto this we can layer the choices of libraries, toolchain, path to live, even version control comment style or commit granularity. (You do use version control, don't you?)

@@ -2,7 +2,6 @@
 title: "Predictable"
 date: 2022-02-23T16:26:37Z
 weight: 300
-draft: true
 ---
 
 Code should do what it looks like it does, consistently and reliably, with no unpleasant surprises. It should be not only possible but easy to confirm this. In this sense, predictability is a generalisation of testability.

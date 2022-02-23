@@ -1,9 +1,11 @@
 ---
-title: Properties over Principles
+title: CUPID Properties
 slug: properties
 draft: false
 weight: 10
 ---
+
+## Properties over principles
 
 When I started formulating a response to the five SOLID principles, I envisioned replacing each one with something that I found more useful or relevant. I soon realised that the idea of principles itself was problematic. Principles are like rules: you are either compliant or you are not. This gives rise to "bounded sets" of rule-followers and rule-enforcers rather than "centred sets" of people with shared values.[^hiebert]
 

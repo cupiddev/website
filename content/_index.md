@@ -11,11 +11,11 @@ There are likely many of these properties, overlapping and interrelating, and th
 
 The five CUPID properties are:
 
-- **[Composable](/composable/):** plays well with others
-- **[Unix philosophy](/unix-philosophy/):** does one thing well
-- **[Predictable](/predictable/):** does what you expect
-- **[Idiomatic](/idiomatic/):** feels natural
-- **[Domain-based](/domain-based/):** the code models the problem domain in language and structure
+- **[Composable](properties/composable/):** plays well with others
+- **[Unix philosophy](properties/unix-philosophy/):** does one thing well
+- **[Predictable](properties/predictable/):** does what you expect
+- **[Idiomatic](properties/idiomatic/):** feels natural
+- **[Domain-based](properties/domain-based/):** the code models the problem domain in language and structure
 
 {{% aside %}}
 
@@ -60,5 +60,15 @@ This feels more like something to strive for. How nice would it be to feel *comf
 If you spend your working days programming, then navigating and manipulating a codebase defines your user experience. You can experience surprise, frustration, dread, anticipation, helplessness, hope, joy, all because of the choices that earlier programmers made in the codebase.
 
 If we assume it is possible for a codebase to be joyful, is each codebase its own special snowflake whose impact on your psyche is unique? Or can we articulate what makes it joyful, and offer a path towards increasing the joy in the code that we touch?
+
+## Concluding thoughts
+
+I believe code that possesses more of these properties---of composability, Unix philosophy, predictability, or being idiomatic or domain-based---is more pleasing to work with than code that does not. While I value each characteristic independently, I find they are mutually reinforcing.
+
+Code that is both composable and comprehensive---doing one thing well---is like a reliable friend. Idiomatic code feels familiar even though you have never seen it before. Predictable code gives you spare cycles to concentrate on surprises elsewhere. Domain-based code minimises the cognitive distance from need to solution. Moving code towards the "centre" of any of these properties leaves it better than you found it.
+
+Because CUPID is a [backronym](https://en.wikipedia.org/wiki/Backronym), I had several candidates for each letter. I chose these five because they feel "foundational" somehow; we can derive all the other candidate properties from these. Future articles will explore some of the shortlist properties that did not make the cut, and look at how they are natural consequences of writing CUPID software.
+
+I am keen to hear of people's adventures with CUPID. I am already hearing about teams using these properties to assess their code, and to develop strategies to clean up legacy codebases, and I cannot wait to hear experience reports and case studies. In the meantime I want to go deeper with CUPID, exploring each of the properties in turn, to see what else has been hiding in plain sight.
 
 [^gabriel]: I recommend anyone involved in software development, not just programmers, read this short essay. It is a profound and beautiful piece of writing.

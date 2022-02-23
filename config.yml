@@ -19,6 +19,6 @@ menu_exclusion:
   - posts
 
 params:
-  menu_style: open-menu
+  menu_style: open-menu # | slide-menu | ''
   custom_font_color: ''
   custom_background_color: ''

@@ -1,7 +1,8 @@
 ---
-title: CUPID - for joyful coding
-draft: false
+date: 2022-02-23T16:46:21Z
 ---
+
+# CUPID - for joyful coding
 
 What started as lighthearted iconoclasm, poking at the bear of SOLID, has developed into something more concrete and tangible. If I do not think the SOLID principles are useful these days, then what would I replace them with? Can any set of principles hold for all software? What do we even mean by principles?
 
@@ -61,7 +62,7 @@ If you spend your working days programming, then navigating and manipulating a c
 
 If we assume it is possible for a codebase to be joyful, is each codebase its own special snowflake whose impact on your psyche is unique? Or can we articulate what makes it joyful, and offer a path towards increasing the joy in the code that we touch?
 
-## Concluding thoughts
+## Where next?
 
 I believe code that possesses more of these properties---of composability, Unix philosophy, predictability, or being idiomatic or domain-based---is more pleasing to work with than code that does not. While I value each characteristic independently, I find they are mutually reinforcing.
 

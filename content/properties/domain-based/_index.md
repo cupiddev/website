@@ -1,9 +1,8 @@
 ---
-title: "Domain Based"
+title: "Domain-based"
 date: 2022-02-23T16:46:21Z
 weight: 500
 ---
-
 
 We write software to meet a need. This may be specific and situational, or generic and far-reaching. Whatever its purpose, code should convey what it is doing in the language of the problem domain, to minimise the cognitive distance between what you write and what it does. This is more than "using the right words".
 

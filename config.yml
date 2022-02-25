@@ -15,7 +15,7 @@ markup:
     ordered: false
 
 menu_exclusion:
-  # path name excluded from documentation menu
+  # path names excluded from documentation menu
   - posts
 
 params:

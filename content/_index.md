@@ -1,5 +1,5 @@
 ---
-date: 2022-02-23T16:46:21Z
+date: 2022-02-23
 ---
 
 # CUPID - for joyful coding

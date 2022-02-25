@@ -1,5 +1,6 @@
 ---
-title: "Unix Philosophy"
+title: Unix Philosophy
+date: 2022-02-23
 weight: 200
 ---
 

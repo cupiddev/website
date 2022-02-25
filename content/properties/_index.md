@@ -1,7 +1,7 @@
 ---
 title: CUPID Properties
 slug: properties
-draft: false
+date: 2022-02-23
 weight: 10
 ---
 

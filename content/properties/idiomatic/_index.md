@@ -1,6 +1,6 @@
 ---
-title: "Idiomatic"
-date: 2022-02-23T16:23:55Z
+title: Idiomatic
+date: 2022-02-23
 weight: 400
 ---
 

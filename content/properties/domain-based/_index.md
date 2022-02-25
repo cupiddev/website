@@ -1,6 +1,6 @@
 ---
-title: "Domain-based"
-date: 2022-02-23T16:46:21Z
+title: Domain-based
+date: 2022-02-23
 weight: 500
 ---
 

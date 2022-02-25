@@ -1,6 +1,6 @@
 ---
-title: "Predictable"
-date: 2022-02-23T16:26:37Z
+title: Predictable
+date: 2022-02-23
 weight: 300
 ---
 

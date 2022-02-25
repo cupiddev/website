@@ -1,7 +1,7 @@
 ---
 title: Composable
+date: 2022-02-23
 weight: 100
-
 ---
 
 Software that is easy to use gets used, and used, and used again. There are characteristics that make code more or less composable, but these are neither necessary nor sufficient to make any guarantees. In each case we can find counterexamples on both sides, so you should think of these as useful heuristics. More is not necessarily better; it is all trade-offs.

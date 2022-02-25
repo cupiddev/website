@@ -4,7 +4,9 @@ date: 2022-02-23
 
 # CUPID - for joyful coding
 
-What started as lighthearted iconoclasm, poking at the bear of SOLID, has developed into something more concrete and tangible. If I do not think the SOLID principles are useful these days, then what would I replace them with? Can any set of principles hold for all software? What do we even mean by principles?
+{{< figure src="/img/cupid-left.png" class="image-right" width="200" alt="Credit: https://www.freepngimg.com/png/30341-cupid" >}}
+
+*This website is based on [an article by Daniel Terhorst-North](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/), describing properties of joyful code.*
 
 I believe that there are properties or characteristics of software that make it a joy to work with. The more your code has these qualities, the more joyful it is to work with; but everything is a tradeoff so you should always consider your context.
 

@@ -2,7 +2,7 @@
 title: CUPID Properties
 slug: properties
 date: 2022-02-23
-weight: 10
+weight: 100
 ---
 
 ## Properties over principles

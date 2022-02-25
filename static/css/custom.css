@@ -14,3 +14,18 @@
   text-align: left;
   color: #999;
 }
+
+.headerlink {
+  color: lightgray;
+  font-size: small;
+}
+
+.image-left {
+    float: left;
+    padding-right: 12px;
+}
+
+.image-right {
+    float: right;
+    padding-left: 12px;
+}

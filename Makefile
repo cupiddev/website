@@ -9,20 +9,14 @@ hugo := hugo
 serve:
 	$(hugo) serve --disableFastRender --noHTTPCache --verbose --forceSyncStatic --buildDrafts --buildFuture
 
-serveProd:
-	$(hugo) serve --disableFastRender --verbose --forceSyncStatic
-
 local:
 	$(hugo) --minify --cleanDestinationDir
-
-website:
-	$(hugo) --destination $(publish_site_dir) --minify --cleanDestinationDir
 
 config:
 	$(hugo) config
 
 clean:
-	$(RM) -r public
+	$(RM) -rf public
 
 %.md:
 	$(hugo) new $*.md

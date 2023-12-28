@@ -10,11 +10,11 @@ Predictable code should *behave as expected*, and should be *deterministic* and 
 
 ## Behaves as expected
 
-The first of Kent Beck's [four rules of simple design](https://www.martinfowler.com/bliki/BeckDesignRules.html) is that the code "passes all the tests". This should be true even when there are no tests! The intended behaviour of predictable code should be obvious from its structure and naming. If there are no automated tests to exercise this, it should be easy to write some. Michael Feathers calls these [characterisation tests](https://michaelfeathers.silvrback.com/characterization-testing). In his words:
+The first of Kent Beck's [four rules of simple design](https://www.martinfowler.com/bliki/BeckDesignRules.html) is that the code "passes all the tests." This should be true even when there are no tests! The intended behaviour of predictable code should be obvious from its structure and naming. If there are no automated tests to exercise this, it should be easy to write some. Michael Feathers calls these [characterisation tests](https://michaelfeathers.silvrback.com/characterization-testing). In his words:
 
 > "When a system goes into production, in a way, it becomes its own specification."---Michael Feathers
 
-This is not necessary, and I find that some people think of test-driven development as a religion rather than as a tool. I once worked on a complex algorithmic trading application that had around 7% "test coverage". These tests were not evenly distributed! Much of the code had no automated tests at all, and some had crazy amounts of sophisticated tests, checking for subtle bugs and edge cases. I was confident making changes to most of the codebase, because each of the components did one thing, and its behaviour was straightforward and predictable, so the change was usually obvious.
+This is not necessary, and I find that some people think of test-driven development as a religion rather than as a tool. I once worked on a complex algorithmic trading application that had around 7% "test coverage." These tests were not evenly distributed! Much of the code had no automated tests at all, and some had crazy amounts of sophisticated tests, checking for subtle bugs and edge cases. I was confident making changes to most of the codebase, because each of the components did one thing, and its behaviour was straightforward and predictable, so the change was usually obvious.
 
 ## Deterministic
 
@@ -33,7 +33,7 @@ Code should be observable in the [control theory sense](https://en.wikipedia.org
 Instrumenting code from the outset means we can gain valuable data to understand its runtime characteristics. I describe a four-stage model---with two bonus stages!---like this:
 
 1. **Instrumentation** is your software saying what it is doing.
-2. **Telemetry** is making that information available, whether by pull---something asking---or push---sending messages; "measurement at a distance".
+2. **Telemetry** is making that information available, whether by pull---something asking---or push---sending messages; "measurement at a distance."
 3. **Monitoring** is receiving instrumentation and making it visible.
 4. **Alerting** is reacting to the monitored data, or patterns in the data.
 

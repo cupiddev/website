@@ -4,13 +4,13 @@ date: 2022-02-23
 weight: 500
 ---
 
-We write software to meet a need. This may be specific and situational, or generic and far-reaching. Whatever its purpose, code should convey what it is doing in the language of the problem domain, to minimise the cognitive distance between what you write and what it does. This is more than "using the right words".
+We write software to meet a need. This may be specific and situational, or generic and far-reaching. Whatever its purpose, code should convey what it is doing in the language of the problem domain, to minimise the cognitive distance between what you write and what it does. This is more than "using the right words."
 
 ### Domain-based language
 
 Programming languages and their libraries are full of computer science-y constructs like Hash Maps, Linked Lists, Tree Sets, Database Connections, and so on. They have basic types comprising integers, characters, boolean values. You can declare someone's surname as a `string[30]`, which may well be how it gets stored, but defining a `Surname` type will be more intention-revealing. It may even have surname-related operations, properties, or constraints on it. Many subtle bugs in banking software are due to representing money amounts as floating point values; experienced financial software programmers will define a `Money` type with a `Currency` and an `Amount`, which itself is a compound type.
 
-Naming types and operations well is not just about catching or preventing bugs, but about making it easy to articulate and navigate the solution space in code. I made this my contribution to "[97 Things Every Programmer Should Know](https://www.oreilly.com/library/view/97-things-every/9780596809515/)", as "Code in the Language of the Domain".
+Naming types and operations well is not just about catching or preventing bugs, but about making it easy to articulate and navigate the solution space in code. I made this my contribution to "[97 Things Every Programmer Should Know](https://www.oreilly.com/library/view/97-things-every/9780596809515/)," as "Code in the Language of the Domain."
 
 One criterion for success with domain-driven code is that a casual observer cannot tell whether people are discussing the code or the domain. I experienced this once in an electronic trading system, where a financial analyst was discussing complex trade pricing logic with two programmers. I thought they were discussing the rules of pricing, but they were pointing at a screenful of code and the analyst was talking the programmers through the pricing algorithm, which was line-for-line how the code read! The only cognitive distance between the problem domain and the solution code was some syntax punctuation!
 
@@ -57,7 +57,7 @@ The likelihood is that any non-trivial change to patient record management will 
 
 We still need artefacts like models, views, and controllers, whichever way we lay out the code, but grouping them by type should not form the primary structure. Instead, the top level of the codebase should show the primary use cases of hospital management; maybe `patient_history`, `appointments`, `staffing`, and `compliance`.
 
-Taking a domain-based approach to the code structure makes it easy to understand what the code is there for, and easy to navigate to wherever you need to be for anything more complicated than "make that button light blue".
+Taking a domain-based approach to the code structure makes it easy to understand what the code is there for, and easy to navigate to wherever you need to be for anything more complicated than "make that button light blue."
 
 ### Domain-based boundaries
 

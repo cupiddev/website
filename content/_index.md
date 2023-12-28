@@ -36,7 +36,7 @@ I ran the transform on several sample images and they came out looking ok. I was
 
 Some code is a delight to work with. You know how to find what you need to work on. You know how to make the change you need. The code is easy to navigate, easy to understand, easy to reason about. You feel confident that your change will have the effect you wanted without any undue side-effects. The code *guides you*, invites you to look around. The programmer(s) who came before you cared about the person who would come along later, maybe because they realised that the programmer who came along later might be them!
 
-In his seminal book, "Refactoring", Martin Fowler says:
+In his seminal book, "Refactoring," Martin Fowler says:
 
 > "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 >

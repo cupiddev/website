@@ -15,7 +15,7 @@ Instead, I started thinking about *properties*: qualities or characteristics of 
 
 So how do we choose properties? What makes a property more or less useful? I decided on three "properties of properties" that I want the CUPID properties to have. They should be *practical*, *human*, and *layered*.
 
-To be **practical**, properties needs to be:
+To be **practical**, properties need to be:
 
 - easy to **articulate**: so you can describe each of them in a few sentences and offer concrete examples and counterexamples.
 - easy to **assess**: so you can use them as a lens to review and discuss code, and you can easily decide how much the code exhibits each property.

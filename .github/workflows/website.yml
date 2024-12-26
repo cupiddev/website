@@ -12,18 +12,18 @@ jobs:
 
     steps:
     - name: Checkout master
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         submodules: false
+        lfs: true
 
     - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@v1.13.0
+      uses: benmatselby/hugo-deploy-gh-pages@v2.2.0
       env:
         CNAME: cupid.dev
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-        GO_VERSION: 1.17.6
+        GO_VERSION: 1.22.2
         HUGO_EXTENDED: true
-        HUGO_VERSION: 0.92.1
         TARGET_BRANCH: main
         TARGET_REPO: cupiddev/cupiddev.github.io
         TOKEN: ${{secrets.WEBSITE_DEPLOY_TOKEN}}

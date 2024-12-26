@@ -20,11 +20,11 @@ In this context, your target audience is:
 
 Code should conform to the idioms of the language. Some languages have strong opinions about how code should look, which makes it easy to assess how idiomatic your code is. Others are less opinionated, which puts the onus on you to "choose a style" and then stick to it. Go and Python are two examples of an opinionated language.
 
-Python programmers use the term "pythonic" to describe idiomatic code. There is a wonderful [Easter egg](https://en.wikipedia.org/wiki/Easter_egg_(media)) that appears if you `import this` from the Python REPL, or run `python -m this` from a shell. It prints a list of programming aphorisms called "The Zen of Python", which includes this line, capturing the spirit of idiomatic code: "There should be one---and preferably only one---obvious way to do it."
+Python programmers use the term "pythonic" to describe idiomatic code. There is a wonderful [Easter egg](https://en.wikipedia.org/wiki/Easter_egg_(media)) that appears if you `import this` from the Python REPL, or run `python -m this` from a shell. It prints a list of programming aphorisms called "The Zen of Python," which includes this line, capturing the spirit of idiomatic code: "There should be one---and preferably only one---obvious way to do it."
 
 The Go language ships with a code formatter called `gofmt` which makes all source code look the same. This eliminates at a stroke any disagreements about indentation, braces placement, or other syntactic quirks. It means that any code examples you see in the library docs or tutorials look consistent. They even have a document called [Effective Go](https://go.dev/doc/effective_go) that showcases idiomatic Go, beyond the language definition.
 
-At the other end of the spectrum are languages like Scala, Ruby[^ruby], JavaScript, and the venerable Perl. These languages are deliberately multi-paradigm; Perl coined the acronym TIMTOWTDI---"there is more than one way to do it"---pronounced "Tim Toady". You can write functional, procedural, or object-oriented code in most of them, which creates a shallow learning curve from whichever language you know.
+At the other end of the spectrum are languages like Scala, Ruby[^ruby], JavaScript, and the venerable Perl. These languages are deliberately multi-paradigm; Perl coined the acronym TIMTOWTDI---"there is more than one way to do it"---pronounced "Tim Toady." You can write functional, procedural, or object-oriented code in most of them, which creates a shallow learning curve from whichever language you know.
 
 For something as simple as processing a sequence of values, most of these languages let you:
 
@@ -48,6 +48,6 @@ When a language has no consensus around idiomatic style, or several alternatives
 
 Architecture Decision Records[^adr], or ADRs, are a great way to document your choices about style and idioms. These are no less "significant technical decisions" than any other architectural discussion.
 
-[^ruby]: Ruby may be an outlier here, in that there is definitely a "Ruby aesthetic" and various people have written about "[idiomatic Ruby](https://www.freecodecamp.org/news/idiomatic-ruby-writing-beautiful-code-6845c830c664/)", but this is still individuals sharing their preferred programming style rather than anything intrinsic to the community.
+[^ruby]: Ruby may be an outlier here, in that there is definitely a "Ruby aesthetic" and various people have written about "[idiomatic Ruby](https://www.freecodecamp.org/news/idiomatic-ruby-writing-beautiful-code-6845c830c664/)," but this is still individuals sharing their preferred programming style rather than anything intrinsic to the community.
 
 [^adr]: Architecture Decision Records were [first proposed](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) by Michael Nygard in 2011, and have [been evolving](https://adr.github.io) ever since.
